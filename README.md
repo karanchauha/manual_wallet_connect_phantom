@@ -1,12 +1,24 @@
-# React + Vite
+# ⚙️ Manual Solana Wallet Connect (No Wallet Adapter)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project shows how to **connect Phantom Wallet manually** using just `@solana/web3.js` and `window.solana` — no wallet adapter used.
 
-Currently, two official plugins are available:
+> 💡 Learn how Solana wallet connection works under the hood!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Manual connect to Phantom
+- Wallet address fetch
+- Basic connection handling
+- Educational for new devs
+
+---
+
+## 📂 How to Run
+
+```bash
+git clone https://github.com/karanchauha/manual_wallet_connect_phantom.git
+cd manual_wallet_connect
+npm install
+npm run dev
